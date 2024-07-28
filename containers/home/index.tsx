@@ -89,7 +89,7 @@ export default function HomeContainer() {
               </div>
             </div>
           </section>
-          <section className="bg-gray-500 bg-cover bg-no-repeat bg-blend-multiply bg-[url('/background_cover.jpg')]">
+          <section className="bg-gray-500 bg-cover bg-no-repeat bg-blend-multiply bg-[url('/icheader-bg.jpg')]">
             <div className="relative mx-auto max-w-screen-xl px-4 py-10 xl:px-0">
               <div className="mb-6 max-w-screen-md lg:mb-0">
                 <h2 className="mb-4 text-4xl font-extrabold leading-tight tracking-tight text-white md:text-5xl lg:text-6xl">Üniversite Adaylarına Merhaba!</h2>
