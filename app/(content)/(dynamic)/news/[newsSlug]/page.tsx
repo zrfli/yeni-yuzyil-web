@@ -3,7 +3,7 @@ import { PrismaClient } from '@prisma/client';
 
 //const prisma = new PrismaClient();
 
-export default async function news({ params } : { params: { newsSlug : string }}) {
+export default async function news({ params } : { params: { newsSlug : any }}) {
   /*const post = {
     title: params.newsSlug,
     createdAt: 1722181361,
