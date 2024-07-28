@@ -7,49 +7,49 @@ export default function Academics() {
                 </section>
                 <section className="flex relative z-20 min-h-96 justify-center px-4 mx-auto max-w-screen-lg">
                     <div className="w-full py-12 grid grid-cols-2 md:grid-cols-4 gap-4">
-                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
+                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-center bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
                             <div className="absolute bottom-0 left-0 right-0 p-4 text-center bg-black bg-opacity-50 rounded-b">
                                 <p className="text-neutral-100 text-sm font-medium">Prof. Dr. Ersi Abacı Kalfoğlu</p>
                                 <p className="text-neutral-300 text-xs">İYYÜ Tıp Fakültesi Adli Tıp Ana Bilim Dalı Öğretim Üyesi</p>
                             </div>
                         </div>
-                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
+                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-center bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
                             <div className="absolute bottom-0 left-0 right-0 p-4 text-center bg-black bg-opacity-50 rounded-b">
                                 <p className="text-neutral-100 text-sm font-medium">Prof. Dr. Ersi Abacı Kalfoğlu</p>
                                 <p className="text-neutral-300 text-xs">İYYÜ Tıp Fakültesi Adli Tıp Ana Bilim Dalı Öğretim Üyesi</p>
                             </div>
                         </div>
-                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
+                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-center bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
                             <div className="absolute bottom-0 left-0 right-0 p-4 text-center bg-black bg-opacity-50 rounded-b">
                                 <p className="text-neutral-100 text-sm font-medium">Prof. Dr. Ersi Abacı Kalfoğlu</p>
                                 <p className="text-neutral-300 text-xs">İYYÜ Tıp Fakültesi Adli Tıp Ana Bilim Dalı Öğretim Üyesi</p>
                             </div>
                         </div>
-                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
+                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-center bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
                             <div className="absolute bottom-0 left-0 right-0 p-4 text-center bg-black bg-opacity-50 rounded-b">
                                 <p className="text-neutral-100 text-sm font-medium">Prof. Dr. Ersi Abacı Kalfoğlu</p>
                                 <p className="text-neutral-300 text-xs">İYYÜ Tıp Fakültesi Adli Tıp Ana Bilim Dalı Öğretim Üyesi</p>
                             </div>
                         </div>
-                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
+                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-center bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
                             <div className="absolute bottom-0 left-0 right-0 p-4 text-center bg-black bg-opacity-50 rounded-b">
                                 <p className="text-neutral-100 text-sm font-medium">Prof. Dr. Ersi Abacı Kalfoğlu</p>
                                 <p className="text-neutral-300 text-xs">İYYÜ Tıp Fakültesi Adli Tıp Ana Bilim Dalı Öğretim Üyesi</p>
                             </div>
                         </div>
-                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
+                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-center bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
                             <div className="absolute bottom-0 left-0 right-0 p-4 text-center bg-black bg-opacity-50 rounded-b">
                                 <p className="text-neutral-100 text-sm font-medium">Prof. Dr. Ersi Abacı Kalfoğlu</p>
                                 <p className="text-neutral-300 text-xs">İYYÜ Tıp Fakültesi Adli Tıp Ana Bilim Dalı Öğretim Üyesi</p>
                             </div>
                         </div>
-                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
+                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-center bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
                             <div className="absolute bottom-0 left-0 right-0 p-4 text-center bg-black bg-opacity-50 rounded-b">
                                 <p className="text-neutral-100 text-sm font-medium">Prof. Dr. Ersi Abacı Kalfoğlu</p>
                                 <p className="text-neutral-300 text-xs">İYYÜ Tıp Fakültesi Adli Tıp Ana Bilim Dalı Öğretim Üyesi</p>
                             </div>
                         </div>
-                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
+                        <div className="relative max-w-lg min-h-80 flex h-full w-full bg-cover bg-center bg-gray-200 hover:bg-gray-300 rounded bg-blend-multiply" style={{ backgroundImage: `url('/begun.jpg')` }}>
                             <div className="absolute bottom-0 left-0 right-0 p-4 text-center bg-black bg-opacity-50 rounded-b">
                                 <p className="text-neutral-100 text-sm font-medium">Prof. Dr. Ersi Abacı Kalfoğlu</p>
                                 <p className="text-neutral-300 text-xs">İYYÜ Tıp Fakültesi Adli Tıp Ana Bilim Dalı Öğretim Üyesi</p>
