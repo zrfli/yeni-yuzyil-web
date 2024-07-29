@@ -11,7 +11,7 @@ export default async function announcementsSlug({ params }: { params: { announce
     if(!res || res.error) { return notFound(); }
 
     return (
-        <div className="mt-24 text-neutral-800">
+        <div className="text-neutral-800">
             <h1>{res.title}</h1>
             <p>{res.content}</p>
             <p><strong>Author:</strong> {res.author}</p>

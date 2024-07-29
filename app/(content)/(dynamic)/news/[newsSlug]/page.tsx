@@ -25,7 +25,7 @@ export default async function news({ params } : { params: { newsSlug : any }}) {
 
   if (!post) { return notFound(); }
   */
-  return  <div className="mt-20 lg:mt-24">
+  return  <>
             <section className="w-full h-64 bg-no-repeat bg-cover bg-center relative border-b bg-gray-300 bg-blend-multiply border-gray-700 bg-[url('/icheader-bg.jpg')]">
                 <div className="absolute top-20 left-1/2 px-4 mx-auto w-full max-w-screen-xl -translate-x-1/2 xl:top-1/2 xl:-translate-y-1/2 xl:px-0">
                     <h1 className="mb-4 max-w-4xl text-3xl font-extrabold text-white">{params.newsSlug ?? 'Error'}</h1>
@@ -37,5 +37,5 @@ export default async function news({ params } : { params: { newsSlug : any }}) {
                   <div className="space-y-4 text-gray-900 dark:text-gray-300 h-full">{params.newsSlug ?? 'Error'}</div>
                 </div>
             </section>
-          </div>
+          </>
 }

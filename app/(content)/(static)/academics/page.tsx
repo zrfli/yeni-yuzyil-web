@@ -1,5 +1,7 @@
+"use client";
+
 export default function Academics() {
-    return <div className="mt-20 lg:mt-24">
+    return <>
                 <section className="w-full h-64 bg-fit relative border-b border-gray-700 bg-[url('/white-point.png')]">
                     <div className="absolute top-20 left-1/2 px-4 mx-auto w-full max-w-screen-xl -translate-x-1/2 xl:top-1/2 xl:-translate-y-1/2 xl:px-0">
                         <h1 className="text-4xl md:text-5xl font-extrabold text-black text-center">Akademisyenler</h1>
@@ -57,5 +59,5 @@ export default function Academics() {
                         </div>
                     </div>
                 </section>
-            </div>
+            </>
 }

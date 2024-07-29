@@ -9,7 +9,7 @@ import { HeroScroll } from "@/components/(base)/hero";
 
 export default function HomeContainer() {
 
-  return <div className="mt-20 md:mt-24">
+  return <>
           <BaseCarousel />
           <section aria-label="quickaccess" className="py-12">
             <div className="px-4 mx-auto max-w-screen-xl">
@@ -392,5 +392,5 @@ export default function HomeContainer() {
               </div>
             </div>
           </section>
-        </div> 
+        </> 
 }

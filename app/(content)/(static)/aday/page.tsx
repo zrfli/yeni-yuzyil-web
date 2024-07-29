@@ -1,3 +1,5 @@
+"use client";
+
 import { Input } from "@/components/ui/input";
 import Image from "next/image";
 
@@ -13,7 +15,7 @@ import {
 
 export default function Aday(){
     return (
-        <div className="py-16 min-h-96 mt-8">
+        <>
             <div className="py-10 grid items-center lg:grid-cols-9 bg-blue-600">
                 <div className="col-span-1 lg:col-span-6 text-center sm:mb-6 lg:mb-0 lg:text-left mx-auto max-w-screen-xl p-6">
                     <div className="mb-6">
@@ -198,6 +200,6 @@ export default function Aday(){
                     </div>
                 </section>
             </div>
-        </div>
+        </>
     );
 }

@@ -6,7 +6,7 @@ import Logo from "@/public/logo.png";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function Header(){
-    return (<header className="fixed top-0 z-50 w-full">
+    return (<header className="sticky top-0 z-10 w-full">
                 <nav className="bg-white border-b border-gray-400 dark:border-neutral-700 dark:bg-black px-4 lg:px-6 py-3">
                     <div className="flex flex-wrap justify-between items-center mx-auto">
                         <Link href="/" rel="noopener noreferrer">

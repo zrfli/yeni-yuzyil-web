@@ -1,8 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
 export default function News() {
-    return (<div className="py-40">
+    return (<div className="py-24">
                 <div className="px-4 mx-auto max-w-screen-xl">
                     <div className="text-center mb-10">
                         <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl dark:text-white">Haberler</h1>
