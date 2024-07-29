@@ -1,8 +1,11 @@
+"use client";
+
 import Link from "next/link"; 
 import Image from "next/image"; 
 
 import { BaseCarousel } from "@/components/(base)/carousel";
 import Brands from "@/components/(base)/brands";
+import { HeroScroll } from "@/components/(base)/hero";
 
 export default function HomeContainer() {
 
@@ -226,7 +229,6 @@ export default function HomeContainer() {
               </div>
             </div>
           </section>
-          <Image src="/tanitim-filmi-background.jpg" className="w-full h-full py-12" alt="" priority={false} width={1600} height={600} />
           <section aria-label="events" className="py-12">
             <div className="px-4 mx-auto max-w-screen-xl">
               <div className="flex items-center justify-between mb-8">

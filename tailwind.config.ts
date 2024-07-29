@@ -1,3 +1,4 @@
+import {nextui} from '@nextui-org/theme';
 import type { Config } from "tailwindcss";
 
 const flowbite = require("flowbite-react/tailwind");
@@ -6,7 +7,13 @@ const { fontFamily } = require("tailwindcss/defaultTheme")
 
 const config = {
   darkMode: ["class"],
-  content: ["app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}", "containers/**/*.{ts,tsx}", flowbite.content()],
+  content: [
+    "app/**/*.{ts,tsx}",
+    "components/**/*.{ts,tsx}",
+    "containers/**/*.{ts,tsx}",
+    "flowbite.content()",
+    "./node_modules/@nextui-org/theme/dist/components/[object Object].js"
+  ],
   prefix: "",
   theme: {
     container: {
@@ -43,7 +50,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), flowbite.plugin()],
+  plugins: [require("tailwindcss-animate"),flowbite.plugin(),nextui()],
 } satisfies Config
 
 export default config

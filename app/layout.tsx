@@ -14,24 +14,31 @@ import "@/styles/globals.css";
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
   title: 'T.C. İstanbul Yeni Yüzyıl Üniversitesi',
   description: 'nisantasi üniversitesi',
-  authors: [{name: "Misy", url: "https://misy.dev"}],
+  authors: [{name: 'Misy', url: 'https://misy.dev'}],
 }
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn("min-h-screen font-sans antialiased", fontSans.variable)}>
-          <Header />
-          <React.Fragment>
-            <main>{children}</main>
-          </React.Fragment>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Header />
+            {children}
           <Analytics />
           <SpeedInsights />
           <Footer />
+          </ThemeProvider>
+
       </body>
     </html>
   )

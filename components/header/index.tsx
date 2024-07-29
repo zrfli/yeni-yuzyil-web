@@ -3,10 +3,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "@/public/logo.png";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function Header(){
     return (<header className="fixed top-0 z-50 w-full">
-                <nav className="bg-white border-b border-gray-400 dark:border-neutral-700 dark:bg-black px-4 lg:px-6 py-4">
+                <nav className="bg-white border-b border-gray-400 dark:border-neutral-700 dark:bg-black px-4 lg:px-6 py-3">
                     <div className="flex flex-wrap justify-between items-center mx-auto">
                         <Link href="/" rel="noopener noreferrer">
                             <Image priority={true} className="h-auto w-32 md:w-40" src={Logo} height={500} width={500} alt="" />
@@ -31,6 +32,7 @@ export default function Header(){
                                     </ul>
                                 </div>
                             </div>
+                            <ThemeToggle />
                             <div className="lg:hidden" data-collapse-toggle="header-menu">
                                 <button type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-800/80" aria-controls="header-menu" aria-expanded="false">
                                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1m0 5a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1m0 5a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1" clipRule="evenodd"/></svg>                

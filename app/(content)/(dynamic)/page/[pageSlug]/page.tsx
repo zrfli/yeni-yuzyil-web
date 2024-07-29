@@ -1,6 +1,9 @@
+"use client";
+
 export default function Page({ params } : { params : { pageSlug : any }}) {
+
     return <div className="mt-20 lg:mt-24">
-                <section className="w-full h-64 bg-no-repeat bg-fit bg-gray-400 bg-blend-multiply relative border-b border-gray-700 bg-[url('/background_cover.jpg')]">
+                <section className="w-full h-64 bg-no-repeat bg-cover bg-gray-300 bg-center bg-blend-multiply relative border-b border-gray-700 bg-[url('/icheader-bg.jpg')]">
                     <div className="absolute top-20 left-1/2 px-4 mx-auto w-full max-w-screen-xl -translate-x-1/2 xl:top-1/2 xl:-translate-y-1/2 xl:px-0">
                         <h1 className="max-w-4xl text-3xl font-extrabold text-white">{params.pageSlug ?? "Error!"}</h1>
                     </div>
