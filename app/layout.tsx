@@ -17,7 +17,7 @@ import Footer from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
-  title: 'T.C. İstanbul Yeni Yüzyıl Üniversitesi',
+  title: 'Hosting, VDS, Fiziksel Sunucu - Eray',
   description: 'nisantasi üniversitesi',
   authors: [{name: 'Misy', url: 'https://misy.dev'}],
 }
