@@ -25,11 +25,15 @@ export function BaseCarousel() {
     <div className="w-full max-w-screen">
       <Flowbite theme={{ theme: customTheme }}>
           <Carousel slide={false}>
-            {Array.from({ length: 5 }).map((_, index) => (
-                  <div className="relative h-96 w-full" key={index}>
-                    <Image src="/367c3fb91600.jpg" fill alt="" priority={false} style={{ objectFit: "cover" }} />
-                  </div>
-              ))}
+            <div className="relative h-96 w-full" key={index}>
+              <Image src="/1.webp" fill alt="" priority={false} style={{ objectFit: "cover" }} />
+            </div>
+            <div className="relative h-96 w-full" key={index}>
+              <Image src="/2.webp" fill alt="" priority={false} style={{ objectFit: "cover" }} />
+            </div>
+            <div className="relative h-96 w-full" key={index}>
+              <Image src="/3.webp" fill alt="" priority={false} style={{ objectFit: "cover" }} />
+            </div>
           </Carousel>
         </Flowbite>
     </div>
